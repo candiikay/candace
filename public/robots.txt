@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow admin/internal paths if any
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://candacestewart.com/sitemap.xml
+
