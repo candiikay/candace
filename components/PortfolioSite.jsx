@@ -90,6 +90,22 @@ export default function PortfolioSite() {
 
     {
 
+      id: 'creator-partnerships',
+
+      name: 'Creator Partnerships',
+
+      description: 'UGC creator partnerships for tech, AI, and product-led brands.',
+
+      projects: [
+
+        { name: 'UGC for Tech Brands', description: 'Short-form creator content grounded in product fluency, scripting, and clear demos', slug: 'creator-partnerships', imageFolder: 'UGC' }
+
+      ]
+
+    },
+
+    {
+
       id: 'design-theory',
 
       name: 'Design Theory',
@@ -419,4 +435,3 @@ export default function PortfolioSite() {
   );
 
 }
-

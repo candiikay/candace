@@ -274,6 +274,48 @@ const projectData = {
       { filename: 'Tend to nodes.png', description: 'Tend to nodes - interaction and care interface for knowledge nodes. Closing visual.' }
     ]
   },
+  'creator-partnerships': {
+    name: 'UGC for Tech Brands',
+    subtitle: 'Creator Partnerships as Product Storytelling',
+    category: 'Creator Partnerships',
+    description: 'Short-form creator content for tech, AI, and product-led brands built by someone who also designs and ships products.',
+    imageFolder: 'UGC',
+    abstract: 'This work sits alongside my design and systems practice rather than outside it. I create UGC and creator-led product content for brands that need stronger hooks, clearer demos, and native-feeling short-form storytelling. The difference is that I do not approach products only as a creator; I approach them as someone who understands product strategy, interface decisions, user friction, and why certain messages convert while others do not.',
+    objective: 'Can creator partnerships for tech and product-led brands feel more intelligent, native, and conversion-aware when the creator also understands how products are built? Instead of generic lifestyle UGC, the goal is to make technical products feel legible, useful, and culturally fluent in-feed.',
+    hypothesis: 'When creator content is informed by product thinking, it performs differently. Hooks become sharper because they are tied to real user pain. Demos become clearer because the product logic is understood, not just recited. Trust increases because the creator can translate features into actual user value rather than vague enthusiasm.',
+    visualSystem: 'CREATOR PARTNERSHIPS — DESIGN RATIONALE: This page is included inside the same portfolio structure because it belongs to the same practice. The visual system stays document-like and research-oriented, signaling that creator work here is not treated as influencer output detached from design. Screens, thumbnails, and creator images sit inside the same archival interface as product experiments and research systems. The effect is intentional: content creation is presented as another mode of product thinking. The palette remains restrained, and the layout frames short-form proof as evidence rather than hype. The creator image introduces intimacy, while the TikTok proofs function as public-facing artifacts of attention, clarity, and reach.',
+    methodology: [
+      { step: '01. Product Reading', description: 'Before scripting, I map the product the same way I would in a design or strategy review: what it does, who it is for, what friction it removes, and what a user would actually care about in the first three seconds.' },
+      { step: '02. Hook + Angle Development', description: 'I build multiple opening angles around the same product or offer. That can mean pain-first hooks, speed/result hooks, contrarian hooks, founder-style framing, or simpler product-demo opens depending on what the brand needs to test.' },
+      { step: '03. Native-Fit Production', description: 'The content is then shaped to feel legible on platform: talking-head delivery, on-screen text, demo flow, or creator voiceover. The goal is not polished ad language. The goal is content that feels watchable, understandable, and native to the feed.' },
+      { step: '04. Performance + Iteration', description: 'Because the work is short-form, iteration matters. I treat posts as signals: which hooks increased curiosity, which explanations were too slow, and which demos made the product feel instantly useful. That feedback loop informs the next script batch.' }
+    ],
+    outcomes: 'Current public proof across my accounts includes a 330.6K-view personality-led post, a 91.2K-view creator-economy / side-hustle post, and a 6.9K-view consumer-information post. Together they show range across direct opinion hooks, educational hooks, and practical service-style content. The value for brand partnerships is not just one viral post; it is the ability to work across multiple tones while keeping the content clear and native.',
+    analysis: 'The moat here is not simply "I can make content." It is that I can read a product, simplify its story, and turn it into short-form communication without flattening what makes it interesting. For tech brands especially, that matters. Many products fail in short-form because the creator does not actually understand the interface, the use case, or the user. My background in technology innovation and product design changes that: content becomes a translation layer between product complexity and audience attention.',
+    conclusion: 'Creator partnerships fit naturally inside my portfolio because they are part of the same larger practice: building, explaining, and shaping how people encounter systems. For the right brand, UGC is not separate from product design. It is another surface where product meaning gets made visible.',
+    futureWork: [
+      'Build more direct case studies for AI, SaaS, and consumer-tech products where hook variants, script choices, and outcomes can be compared side by side.',
+      'Expand creator partnerships into a tighter offer for product-led brands: concepting, scripting, hook testing, and native demos.',
+      'Integrate short-form content thinking earlier into product launch planning so messaging and creator execution are shaped together rather than separately.',
+      'Develop a clearer proof stack on-site that connects public-performing posts, brand angles, and product categories in one place.'
+    ],
+    technologies: [
+      'Short-form scripting',
+      'Product storytelling',
+      'Hook testing',
+      'Creator-led demos',
+      'TikTok and Instagram content strategy',
+      'AI-assisted content workflows',
+      'Product positioning',
+      'Audience-aware messaging'
+    ],
+    images: [
+      { filename: 'profile.png', description: 'Creator portrait — the person behind the work and the product-facing content practice.' },
+      { filename: 'candiikay-top.jpg', description: 'Top public post from @candiikay — 330.6K views. Personality-led storytelling with a direct opinion hook.' },
+      { filename: 'candii-creates-top.jpg', description: 'Top public post from @candii.creates — 91.2K views. Creator-economy and income-angle framing with platform-native delivery.' },
+      { filename: 'candiisaves-top.jpg', description: 'Top public post from @candiisaves — 6.9K views. Consumer-facing informational content with direct utility framing.' }
+    ]
+  },
   'cyborg-manifesto': {
     name: 'Cyborg Manifesto',
     subtitle: 'A Reading Process & Guide',
