@@ -155,7 +155,7 @@ This project is private and proprietary.
 
 **Candace Stewart**
 - Email: [candace.keenya@gmail.com](mailto:candace.keenya@gmail.com)
-- Portfolio: [Your deployed URL]
+- Portfolio: [candace.dev](https://candace.dev)
 - Instagram: [@candiikay](https://www.instagram.com/candiikay/)
 - LinkedIn: [candaceks](https://www.linkedin.com/in/candaceks)
 
