@@ -276,23 +276,23 @@ const projectData = {
   },
   'creator-partnerships': {
     name: 'UGC for Tech Brands',
-    subtitle: 'Creator Partnerships as Product Storytelling',
+    subtitle: 'Where product fluency meets the feed',
     category: 'Creator Partnerships',
     description: 'Short-form creator content for tech, AI, and product-led brands built by someone who also designs and ships products.',
     imageFolder: 'UGC',
-    abstract: 'This work sits alongside my design and systems practice rather than outside it. I create UGC and creator-led product content for brands that need stronger hooks, clearer demos, and native-feeling short-form storytelling. The difference is that I do not approach products only as a creator; I approach them as someone who understands product strategy, interface decisions, user friction, and why certain messages convert while others do not.',
-    objective: 'Can creator partnerships for tech and product-led brands feel more intelligent, native, and conversion-aware when the creator also understands how products are built? Instead of generic lifestyle UGC, the goal is to make technical products feel legible, useful, and culturally fluent in-feed.',
-    hypothesis: 'When creator content is informed by product thinking, it performs differently. Hooks become sharper because they are tied to real user pain. Demos become clearer because the product logic is understood, not just recited. Trust increases because the creator can translate features into actual user value rather than vague enthusiasm.',
-    visualSystem: 'CREATOR PARTNERSHIPS — DESIGN RATIONALE: This page is included inside the same portfolio structure because it belongs to the same practice. The visual system stays document-like and research-oriented, signaling that creator work here is not treated as influencer output detached from design. Screens, thumbnails, and creator images sit inside the same archival interface as product experiments and research systems. The effect is intentional: content creation is presented as another mode of product thinking. The palette remains restrained, and the layout frames short-form proof as evidence rather than hype. The creator image introduces intimacy, while the TikTok proofs function as public-facing artifacts of attention, clarity, and reach.',
+    abstract: 'Most creator content makes tech look cool. I make it make sense — because I also design and ship the products I talk about. Hooks with teeth, demos that are real, and nothing that sounds like it came from a brand deck.',
+    objective: 'How can creator partnerships for tech brands feel clearer, more native, and more conversion-aware when the creator also understands the product? The goal is to make technical products easier to understand in-feed without flattening them into generic lifestyle content.',
+    hypothesis: 'When creator content is shaped by product thinking, it usually performs better. Hooks get sharper because they connect to real user pain, demos get cleaner because the product logic is understood, and trust improves because the value is translated more clearly.',
+    visualSystem: 'CREATOR PARTNERSHIPS — DESIGN RATIONALE: This page stays inside the same portfolio system because I treat creator work as part of my broader product practice. The visual language remains document-like and restrained, but the proof shifts toward public-facing performance: creator imagery, post thumbnails, and clear account signals. The goal is not to make UGC feel separate from design. It is to show that creator work can be another way of explaining products clearly.',
     methodology: [
       { step: '01. Product Reading', description: 'Before scripting, I map the product the same way I would in a design or strategy review: what it does, who it is for, what friction it removes, and what a user would actually care about in the first three seconds.' },
       { step: '02. Hook + Angle Development', description: 'I build multiple opening angles around the same product or offer. That can mean pain-first hooks, speed/result hooks, contrarian hooks, founder-style framing, or simpler product-demo opens depending on what the brand needs to test.' },
       { step: '03. Native-Fit Production', description: 'The content is then shaped to feel legible on platform: talking-head delivery, on-screen text, demo flow, or creator voiceover. The goal is not polished ad language. The goal is content that feels watchable, understandable, and native to the feed.' },
       { step: '04. Performance + Iteration', description: 'Because the work is short-form, iteration matters. I treat posts as signals: which hooks increased curiosity, which explanations were too slow, and which demos made the product feel instantly useful. That feedback loop informs the next script batch.' }
     ],
-    outcomes: 'Current public proof across my accounts includes a 330.6K-view personality-led post, a 91.2K-view creator-economy / side-hustle post, and a 6.9K-view consumer-information post. Together they show range across direct opinion hooks, educational hooks, and practical service-style content. The value for brand partnerships is not just one viral post; it is the ability to work across multiple tones while keeping the content clear and native.',
-    analysis: 'The moat here is not simply "I can make content." It is that I can read a product, simplify its story, and turn it into short-form communication without flattening what makes it interesting. For tech brands especially, that matters. Many products fail in short-form because the creator does not actually understand the interface, the use case, or the user. My background in technology innovation and product design changes that: content becomes a translation layer between product complexity and audience attention.',
-    conclusion: 'Creator partnerships fit naturally inside my portfolio because they are part of the same larger practice: building, explaining, and shaping how people encounter systems. For the right brand, UGC is not separate from product design. It is another surface where product meaning gets made visible.',
+    outcomes: 'Current public proof is led by a 330.6K-view advice hook with 3,212 shares, plus a 273.3K-view POV post, a 91.2K-view creator-economy post, and utility-first consumer content. Together they show range across high-reach hooks, share-driven POV, educational angles, and practical service-style framing.',
+    analysis: 'The moat here is not simply that I can make content. It is that I can read a product, simplify the story, and turn it into short-form communication without losing what makes it useful. For tech brands, that matters. Many products fail in short-form because the creator does not actually understand the interface, the use case, or the user.',
+    conclusion: 'Creator partnerships fit naturally inside my portfolio because they are part of the same larger practice: building products, explaining systems, and shaping how people encounter technology. For the right brand, UGC is not separate from product design. It is another layer of product communication.',
     futureWork: [
       'Build more direct case studies for AI, SaaS, and consumer-tech products where hook variants, script choices, and outcomes can be compared side by side.',
       'Expand creator partnerships into a tighter offer for product-led brands: concepting, scripting, hook testing, and native demos.',
@@ -311,9 +311,104 @@ const projectData = {
     ],
     images: [
       { filename: 'profile.png', description: 'Creator portrait — the person behind the work and the product-facing content practice.' },
-      { filename: 'candiikay-top.jpg', description: 'Top public post from @candiikay — 330.6K views. Personality-led storytelling with a direct opinion hook.' },
+      { filename: 'candiikay-reach.jpg', description: 'Featured @candiikay post — 330.6K views and 3,212 shares. High-reach advice hook with a direct, legible opening.' },
+      { filename: 'candiikay-featured.jpg', description: '@candiikay POV post — 273.3K views and 816 shares. Share-driven debate content built on personal experience.' },
       { filename: 'candii-creates-top.jpg', description: 'Top public post from @candii.creates — 91.2K views. Creator-economy and income-angle framing with platform-native delivery.' },
       { filename: 'candiisaves-top.jpg', description: 'Top public post from @candiisaves — 6.9K views. Consumer-facing informational content with direct utility framing.' }
+    ],
+    quickStats: [
+      { label: 'Top reach', value: '330.6K' },
+      { label: 'Highest shares', value: '3,212' },
+      { label: 'Best fit', value: 'AI / apps / SaaS' }
+    ],
+    brandPlaybook: [
+      {
+        title: 'High-reach advice hooks',
+        description: 'Direct, legible openings that stop the scroll before anyone knows the brand name. Built to travel — high shares mean people send it, not just watch it.',
+        bestFor: 'Top-of-funnel awareness, founder-led brands, launches that need a human voice fast.'
+      },
+      {
+        title: 'Share-driven POV',
+        description: 'Personal stories framed as debate. People send these to someone specific — a friend, a coworker, a group chat. High shares mean the message travels without paid distribution.',
+        bestFor: 'Thought leadership, employer brand, any product tied to career, money, or lifestyle tension.'
+      },
+      {
+        title: 'Product-native demos',
+        description: 'Short-form explainers where the creator actually understands the interface, workflow, and user. Fewer generic lines, cleaner proof.',
+        bestFor: 'AI tools, apps, SaaS — anything that needs to be understood in-feed, not just admired.'
+      }
+    ],
+    accountProof: [
+      {
+        label: '@candiikay',
+        angle: 'High-reach advice hook',
+        views: '330.6K',
+        likes: '37.3K',
+        shares: '3,212',
+        title: 'Someone\'s going to take the job — here\'s my advice',
+        url: 'https://www.tiktok.com/@candiikay/video/7543040049680600333',
+        image: '/UGC/candiikay-reach.jpg',
+        insight: '330.6K views and 3,212 shares. The hook is immediate, personal, and legible — people didn\'t just watch it, they sent it.',
+        brandUse: 'Use this for top-of-funnel awareness — a recognizable human voice delivering a clear POV before anyone knows your product name. This is the format I lead with for brands.',
+        note: 'Best-performing post on the account. Proof that the opening line alone can carry both reach and distribution.'
+      },
+      {
+        label: '@candiikay',
+        angle: 'Share-driven POV',
+        views: '273.3K',
+        likes: '9.5K',
+        shares: '816',
+        title: 'I took the $55K NYC job — here\'s what it actually taught me',
+        url: 'https://www.tiktok.com/@candiikay/video/7543030087147343117',
+        image: '/UGC/candiikay-featured.jpg',
+        insight: 'A personal experience turned into a debate people want to pass along. 816 shares means the message traveled — not because of a trend, but because it named a tension everyone recognizes.',
+        brandUse: 'Use this when you need organic distribution, not just impressions. I take a niche story and translate it into a universal hook — so the content spreads without the audience needing insider context.',
+        note: 'Second-highest reach on the account. Strong share velocity on a contrarian POV.'
+      },
+      {
+        label: '@candii.creates',
+        angle: 'AI and creator-economy content',
+        views: '91.2K',
+        likes: '3.9K',
+        shares: '681',
+        title: 'You can quit your 9-5',
+        url: 'https://www.tiktok.com/@candii.creates/video/7646481213829516557',
+        image: '/UGC/candii-creates-top.jpg',
+        insight: 'Income-angle framing tied to platform-native delivery — the kind of hook AI and creator tools need when the audience is skeptical.',
+        brandUse: 'Use this when the product promise is ambitious and the audience needs to believe it\'s possible before they\'ll click.',
+        note: 'Income-angle framing tied to platform-native delivery.'
+      },
+      {
+        label: '@candiisaves',
+        angle: 'Utility-first consumer information',
+        views: '6.9K',
+        likes: '324',
+        shares: '57',
+        title: 'Instacart is getting sued',
+        url: 'https://www.tiktok.com/@candiisaves/video/7634953594227264781',
+        image: '/UGC/candiisaves-top.jpg',
+        insight: 'Useful, specific, immediately relevant — the format consumer apps and fintech brands need when explaining why something matters right now.',
+        brandUse: 'Use this for product education that feels like news, not an ad. Clear utility framing that earns trust fast.',
+        note: 'Useful, specific consumer framing with clear relevance.'
+      }
+    ],
+    offerItems: [
+      {
+        title: 'Creator-led demos',
+        description: 'Short-form videos that explain the product fast without sounding scripted.'
+      },
+      {
+        title: 'Hook testing',
+        description: 'Multiple opening angles built around pain points, outcomes, or curiosity.'
+      },
+      {
+        title: 'Scriptwriting',
+        description: 'Messaging shaped by product understanding, not just trend-chasing.'
+      },
+      {
+        title: 'Native-feeling UGC',
+        description: 'Content that feels legible in-feed while still making the product clear.'
+      }
     ]
   },
   'cyborg-manifesto': {
@@ -1757,6 +1852,279 @@ function ReadingGuide({ project }) {
   );
 }
 
+function TikTokFrame({ src, alt, size = 'md' }) {
+  const sizeClasses = {
+    sm: 'w-[140px] sm:w-[160px]',
+    md: 'w-[180px] sm:w-[200px]',
+    lg: 'w-[200px] sm:w-[240px]',
+  };
+
+  return (
+    <div className={`${sizeClasses[size]} flex-shrink-0`}>
+      <div className="rounded-[1.35rem] border-2 border-black bg-black p-1.5 shadow-[4px_4px_0_0_rgba(0,0,0,0.08)]">
+        <div className="aspect-[9/16] overflow-hidden rounded-[1rem] bg-gray-900">
+          <Image
+            src={src}
+            alt={alt}
+            width={420}
+            height={746}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ProofStat({ value, label }) {
+  return (
+    <div className="border border-gray-300 px-2.5 py-1.5 bg-white text-xs">
+      <strong className="text-black">{value}</strong>{' '}
+      <span className="text-gray-500">{label}</span>
+    </div>
+  );
+}
+
+function CreatorPartnershipsPage({ project }) {
+  const featured = project.accountProof[0];
+  const secondary = project.accountProof.slice(1);
+  const bestFitBrands = [
+    'AI tools and startups',
+    'Apps and consumer tech products',
+    'Founder-led products that need clearer short-form storytelling',
+    'Brands that want UGC that feels native but still explains the product clearly',
+  ];
+
+  return (
+    <div className="min-h-screen bg-white text-black font-mono">
+      <div className="border-b border-black">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 py-6 sm:py-8 md:py-10">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-xs sm:text-sm text-black mb-6 sm:mb-8 touch-manipulation hover:text-pink-700 transition-colors"
+          >
+            <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            Back to portfolio
+          </Link>
+
+          <div className="flex flex-col sm:flex-row gap-5 sm:gap-8 items-start">
+            <div className="flex-shrink-0 mx-auto sm:mx-0">
+              <Image
+                src="/UGC/profile.png"
+                alt="Candace Stewart"
+                width={150}
+                height={150}
+                className="rounded-full object-cover border-2 border-black w-[100px] h-[100px] sm:w-[120px] sm:h-[120px]"
+                priority
+              />
+            </div>
+
+            <div className="flex-1 text-center sm:text-left">
+              <p className="text-xs text-gray-500 uppercase tracking-wider">{project.category}</p>
+              <p className="text-lg sm:text-xl font-bold mt-1">Candace Stewart</p>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight break-words mt-1">{project.name}</h1>
+              <p className="text-xs sm:text-sm text-gray-500 mt-2 break-words">{project.subtitle}</p>
+              <p className="text-sm sm:text-base text-gray-800 mt-4 max-w-2xl leading-relaxed break-words sm:mx-0 mx-auto">
+                {project.abstract}
+              </p>
+
+              <div className="grid grid-cols-3 gap-2 sm:gap-3 mt-5 max-w-md sm:max-w-none mx-auto sm:mx-0">
+                {project.quickStats.map((item, idx) => (
+                  <div key={idx} className="border border-black px-2 sm:px-3 py-2 bg-pink-50">
+                    <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider">{item.label}</div>
+                    <div className="text-sm sm:text-base font-semibold">{item.value}</div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-5 flex flex-col sm:flex-row sm:items-center gap-3 justify-center sm:justify-start">
+                <span className="text-xs text-gray-500 uppercase tracking-wider">Work with me</span>
+                <a
+                  href="mailto:candace.keenya@gmail.com?subject=Creator%20Partnership%20Inquiry"
+                  className="text-sm font-semibold text-pink-700 hover:text-pink-800 break-all"
+                >
+                  candace.keenya@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-10 md:py-12 space-y-10 sm:space-y-14">
+        <section className="grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-6 lg:gap-10 items-start">
+          <div>
+            <h2 className="text-xs text-gray-600 uppercase tracking-wider mb-4">Brand Proof</h2>
+            <div className="border border-black bg-white hover:bg-pink-50/30 transition-colors">
+              <div className="flex flex-col sm:flex-row gap-5 sm:gap-6 p-4 sm:p-6">
+                <div className="flex justify-center sm:justify-start">
+                  <TikTokFrame src={featured.image} alt={featured.title} size="lg" />
+                </div>
+
+                <div className="flex-1 space-y-4 min-w-0">
+                  <div className="flex flex-wrap items-start justify-between gap-3">
+                    <div>
+                      <div className="text-xs text-gray-500 uppercase tracking-wider">{featured.label}</div>
+                      <div className="text-base sm:text-lg font-semibold mt-1">{featured.angle}</div>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      <ProofStat value={featured.views} label="views" />
+                      <ProofStat value={featured.likes} label="likes" />
+                      <ProofStat value={featured.shares} label="shares" />
+                    </div>
+                  </div>
+                  <p className="text-base sm:text-lg text-gray-900 leading-snug">{featured.title}</p>
+                  <p className="text-sm text-gray-700 leading-relaxed">{featured.insight}</p>
+                  <div className="border-t border-gray-200 pt-4">
+                    <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mb-2">How a brand uses this</div>
+                    <p className="text-sm text-gray-700 leading-relaxed">{featured.brandUse}</p>
+                  </div>
+                  <a
+                    href={featured.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-xs font-semibold text-pink-700 hover:text-pink-800"
+                  >
+                    View featured post <ChevronRight className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <div className="border border-black p-5 sm:p-6 bg-white">
+              <h2 className="text-xs text-gray-600 uppercase tracking-wider mb-4">About</h2>
+              <div className="space-y-3 text-sm sm:text-base text-gray-800 leading-relaxed">
+                <p>I make content for brands that need to explain something real.</p>
+                <p>Because I work in product, design, and technology innovation, I know how to turn a feature, workflow, or product story into something legible in-feed.</p>
+                <p>That usually means sharper hooks, cleaner demos, and fewer generic creator lines.</p>
+              </div>
+            </div>
+
+            <div className="border border-black p-5 sm:p-6 bg-pink-50/60">
+              <h2 className="text-xs text-gray-600 uppercase tracking-wider mb-4">Best Fit Brands</h2>
+              <ul className="space-y-2.5 text-sm sm:text-base text-gray-800">
+                {bestFitBrands.map((brand) => (
+                  <li key={brand} className="flex items-start gap-2.5">
+                    <span className="text-pink-600 mt-1.5 flex-shrink-0">•</span>
+                    <span>{brand}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-xs text-gray-600 uppercase tracking-wider mb-2">How Brands Use This</h2>
+          <p className="text-sm sm:text-base text-gray-700 max-w-2xl mb-5">
+            Each proof post maps to a content lane brands actually buy — not just views, but the outcome behind them.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+            {project.brandPlaybook.map((item, idx) => (
+              <div key={idx} className="border border-black p-4 sm:p-5 bg-white">
+                <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mb-2">
+                  {String(idx + 1).padStart(2, '0')}
+                </div>
+                <h3 className="text-sm sm:text-base font-semibold mb-2">{item.title}</h3>
+                <p className="text-sm text-gray-700 leading-relaxed mb-3">{item.description}</p>
+                <p className="text-xs text-gray-500 leading-relaxed">
+                  <span className="uppercase tracking-wider">Best for:</span> {item.bestFor}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-xs text-gray-600 uppercase tracking-wider mb-2">More Proof</h2>
+          <p className="text-sm sm:text-base text-gray-700 max-w-2xl mb-5">
+            Different lanes, same skill: making information feel watchable, understandable, and worth acting on.
+          </p>
+
+          <div className="space-y-4">
+            {secondary.map((item, idx) => (
+              <article
+                key={idx}
+                className="border border-black bg-white hover:bg-pink-50/30 transition-colors"
+              >
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 p-4 sm:p-5">
+                  <div className="flex justify-center sm:justify-start">
+                    <TikTokFrame src={item.image} alt={item.title} size="md" />
+                  </div>
+                  <div className="flex-1 space-y-3 min-w-0">
+                    <div className="flex flex-wrap items-start justify-between gap-3">
+                      <div>
+                        <div className="text-xs text-gray-500 uppercase tracking-wider">{item.label}</div>
+                        <div className="text-sm sm:text-base font-semibold mt-1">{item.angle}</div>
+                      </div>
+                      <div className="flex flex-wrap gap-2">
+                        <ProofStat value={item.views} label="views" />
+                        <ProofStat value={item.likes} label="likes" />
+                        <ProofStat value={item.shares} label="shares" />
+                      </div>
+                    </div>
+                    <p className="text-sm sm:text-base text-gray-900 leading-relaxed">{item.title}</p>
+                    <p className="text-sm text-gray-700 leading-relaxed">{item.insight}</p>
+                    <div className="border-t border-gray-200 pt-3">
+                      <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mb-1.5">How a brand uses this</div>
+                      <p className="text-sm text-gray-600 leading-relaxed">{item.brandUse}</p>
+                    </div>
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-xs font-semibold text-pink-700 hover:text-pink-800"
+                    >
+                      View post <ChevronRight className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-xs text-gray-600 uppercase tracking-wider mb-5">What I Create</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {project.offerItems.map((item, idx) => (
+              <div
+                key={idx}
+                className="border border-black p-4 sm:p-5 bg-white hover:bg-pink-50/40 transition-colors"
+              >
+                <div className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wider mb-2">
+                  {String(idx + 1).padStart(2, '0')}
+                </div>
+                <h3 className="text-sm sm:text-base font-semibold mb-2">{item.title}</h3>
+                <p className="text-sm text-gray-700 leading-relaxed">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="border border-black bg-pink-50 p-5 sm:p-6 md:p-8">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-5 items-center">
+            <div>
+              <h2 className="text-xs text-gray-600 uppercase tracking-wider mb-3">Work With Me</h2>
+              <p className="text-sm sm:text-base text-gray-800 max-w-2xl leading-relaxed">
+                If you need creator content that explains a product clearly, feels native on-platform, and still sounds like a real person, this is the lane I work in.
+              </p>
+            </div>
+            <a
+              href="mailto:candace.keenya@gmail.com?subject=Creator%20Partnership%20Inquiry"
+              className="inline-flex items-center justify-center border border-black px-5 py-3 text-sm font-semibold bg-white hover:bg-black hover:text-white transition-colors whitespace-nowrap"
+            >
+              candace.keenya@gmail.com
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}
+
 export default function ProjectDetail() {
   // Use useParams hook for client components in Next.js 14
   const params = useParams();
@@ -1841,6 +2209,10 @@ export default function ProjectDetail() {
     );
   }
 
+  if (slug === 'creator-partnerships') {
+    return <CreatorPartnershipsPage project={project} />;
+  }
+
   // Structured data for SEO
   const structuredData = {
     '@context': 'https://schema.org',
@@ -1850,6 +2222,7 @@ export default function ProjectDetail() {
     creator: {
       '@type': 'Person',
       name: 'Candace Stewart',
+      email: 'candace.keenya@gmail.com',
       url: process.env.NEXT_PUBLIC_SITE_URL || 'https://candacestewart.com',
     },
     about: {

@@ -78,6 +78,7 @@ export default function RootLayout({ children }) {
     '@type': 'Person',
     name: 'Candace Stewart',
     jobTitle: 'Designer & Systems Thinker',
+    email: 'candace.keenya@gmail.com',
     description: 'I design theories through prototypes. Exploring how care, intimacy, and context become system logic.',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://candacestewart.com',
     image: process.env.NEXT_PUBLIC_SITE_URL ? `${process.env.NEXT_PUBLIC_SITE_URL}/proflie.png` : '/proflie.png',

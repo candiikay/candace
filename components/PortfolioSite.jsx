@@ -212,7 +212,14 @@ export default function PortfolioSite() {
 
               </p>
 
-              <div className="text-xs sm:text-sm text-gray-600 space-y-1 border-t border-gray-200 pt-4">
+              <a
+                href="mailto:candace.keenya@gmail.com"
+                className="text-sm text-gray-600 hover:text-pink-600 transition-colors break-all"
+              >
+                candace.keenya@gmail.com
+              </a>
+
+              <div className="text-xs sm:text-sm text-gray-600 space-y-1 border-t border-gray-200 pt-4 mt-4">
 
                 <p className="break-words">West Point • B.S. Engineering Psychology, Systems Engineering track</p>
 
@@ -296,59 +303,57 @@ export default function PortfolioSite() {
 
         <div className="space-y-1">
 
-          {categories.map((category) => (
+          {categories.map((category) => {
+            const isSingleProject = category.projects.length === 1;
+            const singleProject = isSingleProject ? category.projects[0] : null;
 
+            return (
             <div key={category.id} className="border border-black">
 
               {/* Folder Header */}
-
-              <button
-
-                onClick={() => toggleFolder(category.id)}
-
-                className="w-full px-3 sm:px-4 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3 hover:bg-pink-50 active:bg-pink-100 transition-colors group touch-manipulation"
-
-              >
-
-                {openFolders[category.id] ? (
-
-                  <ChevronDown className="w-4 h-4 flex-shrink-0" />
-
-                ) : (
-
-                  <ChevronRight className="w-4 h-4 flex-shrink-0" />
-
-                )}
-
-                <Folder className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 group-hover:text-pink-600 transition-colors" />
-
-                <div className="flex-1 text-left min-w-0">
-
-                  <div className="font-semibold text-sm sm:text-base group-hover:text-pink-600 transition-colors break-words">
-
-                    {category.name}
-
-                  </div>
-
-                  {!openFolders[category.id] && (
-
-                    <div className="text-xs text-gray-600 mt-0.5 line-clamp-2">
-
-                      {category.description}
-
+              {isSingleProject ? (
+                <Link
+                  href={`/project/${singleProject.slug}`}
+                  className="w-full px-3 sm:px-4 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3 hover:bg-pink-50 active:bg-pink-100 transition-colors group touch-manipulation"
+                >
+                  <ChevronRight className="w-4 h-4 flex-shrink-0 group-hover:text-pink-600 transition-colors" />
+                  <Folder className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 group-hover:text-pink-600 transition-colors" />
+                  <div className="flex-1 text-left min-w-0">
+                    <div className="font-semibold text-sm sm:text-base group-hover:text-pink-600 transition-colors break-words">
+                      {category.name}
                     </div>
-
+                    <div className="text-xs text-gray-600 mt-0.5 line-clamp-2">
+                      {category.description}
+                    </div>
+                  </div>
+                </Link>
+              ) : (
+              <button
+                type="button"
+                onClick={() => toggleFolder(category.id)}
+                className="w-full px-3 sm:px-4 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3 hover:bg-pink-50 active:bg-pink-100 transition-colors group touch-manipulation"
+              >
+                {openFolders[category.id] ? (
+                  <ChevronDown className="w-4 h-4 flex-shrink-0" />
+                ) : (
+                  <ChevronRight className="w-4 h-4 flex-shrink-0" />
+                )}
+                <Folder className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 group-hover:text-pink-600 transition-colors" />
+                <div className="flex-1 text-left min-w-0">
+                  <div className="font-semibold text-sm sm:text-base group-hover:text-pink-600 transition-colors break-words">
+                    {category.name}
+                  </div>
+                  {!openFolders[category.id] && (
+                    <div className="text-xs text-gray-600 mt-0.5 line-clamp-2">
+                      {category.description}
+                    </div>
                   )}
-
                 </div>
-
               </button>
-
-
+              )}
 
               {/* Folder Contents */}
-
-              {openFolders[category.id] && (
+              {!isSingleProject && openFolders[category.id] && (
 
                 <div className="border-t border-black bg-gray-50">
 
@@ -401,8 +406,8 @@ export default function PortfolioSite() {
               )}
 
             </div>
-
-          ))}
+            );
+          })}
 
         </div>
 
@@ -421,6 +426,12 @@ export default function PortfolioSite() {
           <div className="text-xs text-gray-400 space-y-1">
 
             <p>© 2025 Candace Stewart</p>
+
+            <p>
+              <a href="mailto:candace.keenya@gmail.com" className="hover:text-pink-600 transition-colors">
+                candace.keenya@gmail.com
+              </a>
+            </p>
 
             <p>Made with care</p>
 
