@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://candacestewart.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://candace.dev';
   
   // List of all project slugs
   const projects = [

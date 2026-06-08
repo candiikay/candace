@@ -7,5 +7,5 @@ Disallow: /api/
 Disallow: /_next/
 
 # Sitemap
-Sitemap: https://candacestewart.com/sitemap.xml
+Sitemap: https://candace.dev/sitemap.xml
 

@@ -2223,7 +2223,7 @@ export default function ProjectDetail() {
       '@type': 'Person',
       name: 'Candace Stewart',
       email: 'candace.keenya@gmail.com',
-      url: process.env.NEXT_PUBLIC_SITE_URL || 'https://candacestewart.com',
+      url: process.env.NEXT_PUBLIC_SITE_URL || 'https://candace.dev',
     },
     about: {
       '@type': 'Thing',
