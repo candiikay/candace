@@ -1,0 +1,4 @@
+:HL["/projects/book/_next/static/chunks/dd350ea086afee81.css","style"]
+:HL["/images/bertillon-card.png","image"]
+:HL["/images/gender-shades-chart.jpg","image"]
+0:{"buildId":"ya8Bo3uHglIoTqbIcCILF","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"prototype","paramType":null,"paramKey":"prototype","hasRuntimePrefetch":false,"slots":{"children":{"name":"cross-ref-demo","paramType":null,"paramKey":"cross-ref-demo","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

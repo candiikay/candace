@@ -40,11 +40,13 @@ export default function PortfolioSite() {
 
       name: 'Algorithms',
 
-      description: 'How algorithms listen, learn, and express bias, emotion, or taste.',
+      description: 'How computational systems listen, classify, track, and misread the world.',
 
       projects: [
 
-        { name: 'Algorithmic Ear', description: 'Experimental tool exploring algorithmic perception', slug: 'algorithmic-ear', imageFolder: 'Algo Ear' }
+        { name: 'Algorithmic Ear', description: 'Experimental tool exploring algorithmic perception', slug: 'algorithmic-ear', imageFolder: 'Algo Ear' },
+
+        { name: 'The Machine Tries to See Caitlin Clark', description: 'Computational media field notebook on why machine vision misses context in sports footage', slug: 'machine-tries-to-see-caitlin-clark', imageFolder: 'Machine' }
 
       ]
 
@@ -83,6 +85,26 @@ export default function PortfolioSite() {
         { name: 'Field Node v1', description: 'First prototype of an open-source learning system', slug: 'field-node-v1', imageFolder: 'FN V1' },
 
         { name: 'Field Node v2', description: 'Integrated Are.na & Hugging Face APIs', slug: 'field-node-v2', imageFolder: 'FN V2' }
+
+      ]
+
+    },
+
+    {
+
+      id: 'culture-data-transformation',
+
+      name: 'Culture, Data & Transformation',
+
+      description: 'Projects where culture, data, structure, and public storytelling get turned into interfaces and artifacts.',
+
+      projects: [
+
+        { name: 'FORM', description: 'A visual pick-em that turns weekly WNBA matchups into a data-driven field instead of a standard list of choices', slug: 'form-wnba', imageFolder: 'FORM' },
+
+        { name: 'Beyond the Waterline', description: 'Interactive women’s basketball timeline tracing the game, the money, and the context around it', slug: 'beyond-the-waterline', imageFolder: 'Waterline' },
+
+        { name: 'Systems Are Never Neutral', description: 'Feminist systems theory project with a digital book, zine, and process deck on inherited structural forms', slug: 'systems-are-never-neutral', imageFolder: 'SDL' }
 
       ]
 
@@ -204,11 +226,11 @@ export default function PortfolioSite() {
 
               </div>
 
-              <p className="text-base sm:text-lg mb-2">I design theories through prototypes.</p>
+              <p className="text-base sm:text-lg mb-2">I design products, research systems, and make technology legible.</p>
 
               <p className="text-sm sm:text-base text-gray-700 mb-4">
 
-                I explore how care, intimacy, and context become system logic.
+                I work across product design, creative technology, sports media, and creator-led storytelling.
 
               </p>
 
@@ -259,25 +281,25 @@ export default function PortfolioSite() {
 
                     <p>
 
-                      I'm a designer and systems thinker working at the intersection of technology, culture, and care.
+                      I’m a designer and systems thinker working across technology, culture, sports, and care.
 
                     </p>
 
                     <p>
 
-                      At <strong>West Point</strong>, I studied Engineering Psychology with a focus on systems engineering and human performance. Working with emerging military technologies taught me that design isn't just optimization — it's about relationships between people, tools, and the systems they inhabit.
+                      At <strong>West Point</strong>, I studied Engineering Psychology with a systems engineering lens, which taught me to look at how people, interfaces, and technical constraints shape each other.
 
                     </p>
 
                     <p>
 
-                      For the past five years at the <strong>NHL</strong>, I've built participatory digital products using blockchain technology, exploring how new tools shape fandom, play, and community growth. My work bridges sports, gaming, and education.
+                      For the past five years at the <strong>NHL</strong>, I’ve built participatory digital products and explored how emerging technologies shape fandom, play, and community behavior.
 
                     </p>
 
                     <p>
 
-                      Now at <strong>The New School</strong>, I'm studying Media Studies — where technology meets culture. My current work examines how social and algorithmic systems mediate care, intimacy, and visibility online. I work between <strong>engineering and emotion</strong>, <strong>systems and softness</strong> — building the future with feeling.
+                      At <strong>The New School</strong>, my recent work has focused on women’s basketball, media systems, creative coding, and algorithmic visibility. I move between <strong>product thinking</strong>, <strong>research</strong>, and <strong>creator communication</strong> — building things, explaining them, and studying how they land in culture.
 
                     </p>
 
@@ -419,13 +441,13 @@ export default function PortfolioSite() {
 
           <p className="text-xs sm:text-sm text-gray-500 italic mb-4 sm:mb-6 break-words">
 
-            How care, context, and intimacy become technical principles across systems of knowledge, perception, and interaction.
+            Product systems, sports media, creator communication, and research-led technology experiments.
 
           </p>
 
           <div className="text-xs text-gray-400 space-y-1">
 
-            <p>© 2025 Candace Stewart</p>
+            <p>© 2026 Candace Stewart</p>
 
             <p>
               <a href="mailto:candace.keenya@gmail.com" className="hover:text-pink-600 transition-colors">

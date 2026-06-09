@@ -274,6 +274,183 @@ const projectData = {
       { filename: 'Tend to nodes.png', description: 'Tend to nodes - interaction and care interface for knowledge nodes. Closing visual.' }
     ]
   },
+  'form-wnba': {
+    name: 'FORM',
+    subtitle: 'Sports As Art, Picks As Social Infrastructure',
+    category: 'Culture, Data & Transformation',
+    description: 'A data-visualized pick-em for WNBA matchups that replaces standard list-based selection with a more interpretive visual field.',
+    imageFolder: 'FORM',
+    abstract: 'FORM is not just a weekly pick-em. It is an attempt to turn sports selection into an art form. Instead of presenting WNBA matchups as a flat list of binary choices, the system uses watercolor logic, blending, and generative mark-making to let picks accumulate into a shareable visual composition. The goal is to make choosing feel slower, more expressive, and more meaningful — a feminist systems question as much as a product one: how do we design sports interactions that matter, hold feeling, and become part of community rather than disappearing as a quick tap?',
+    objective: 'How can a pick-em become more than a transactional sports interface? Could a weekly rhythm of selection, memory, and sharing be designed as something artistic and communal? Could women’s basketball picks be transformed into a living visual system — one that treats participation not as disposable input, but as something worth rendering, keeping, and circulating?',
+    hypothesis: 'When the act of picking creates a piece of art, the relationship to the system changes. The user is no longer just submitting a choice; they are making a composition. That shift creates a different kind of attachment: more reflective, more social, and more likely to turn prediction into ritual, identity, and community memory.',
+    visualSystem: 'The visual system is the core idea. FORM uses a watercolor effect that lets matchups bleed into one another, so the week behaves like one field instead of a stack of isolated rows. Team colors blur, overlap, and settle into a compositional surface that can be shared as a social artifact. That blending matters conceptually: it resists the coldness of standard sports UI and makes room for mood, interpretation, and relation. The product language pulls from painting, paper, and archive aesthetics so the interface can feel like something to live with, not just pass through.',
+    methodology: [
+      { step: '01. Reject The Default Pick-Em', description: 'The project began by refusing the usual sports-interface template. Instead of checkboxes, betting cues, or bracket logic, the question was: what if choosing winners felt like making something?' },
+      { step: '02. Build The Watercolor Field', description: 'The watercolor effect was designed to let selections blend into each other and form a larger visual piece. The week becomes a continuous painted surface, not a set of isolated decisions. That is where the project becomes art, not just interface.' },
+      { step: '03. Design For Sharing And Community', description: 'The visual output was built to travel. A pick becomes a shareable artifact on social media, while supporting surfaces like the wall, atlas, and personal form history turn the system into a community object rather than a private utility.' },
+      { step: '04. Support The Poetics With Infrastructure', description: 'Underneath the visual system is a practical product stack: scoreboard data, persistent state, share generation, and a PWA architecture. The goal was to make an expressive interface that still behaves like a real system people can return to.' }
+    ],
+    outcomes: 'FORM shows that a sports product can function as interface, artwork, and social artifact at the same time. The system produces weekly picks, but it also produces images, memory, and a sense of form that people can keep, compare, and share. That makes it larger than a game mechanic. It becomes a way of participating in women’s basketball culture through design.',
+    analysis: 'The strongest part of the project is that it changes what counts as the output. In a normal pick-em, the output is a correct or incorrect choice. In FORM, the output is also a visual record, a shareable composition, and a communal object. That is where the feminist systems thinking matters: the interaction is not optimized for speed alone. It is designed to hold more meaning, more care, and more social visibility. The system asks whether a sports interface can be something people dwell in rather than something they simply complete.',
+    conclusion: 'FORM is a design argument about what sports systems can be when they are treated as cultural and artistic forms rather than just utility products. It uses women’s basketball as the site for that experiment, but the larger claim is broader: selection, memory, and community can all be redesigned through more expressive visual systems.',
+    futureWork: [
+      'Refine the watercolor logic so different matchup conditions can generate different intensities, blends, or visual moods without losing clarity.',
+      'Build stronger public storytelling around the weekly art objects, so the output feels even more collectible and discussable across social platforms.',
+      'Expand the archive and personal history views so users can see not just what they picked, but how their visual language and habits evolve over time.',
+      'Test how this kind of slower, more expressive sports interaction could scale into other community-based systems without losing the intimacy of the current form.'
+    ],
+    technologies: [
+      'Vanilla JavaScript (ES modules)',
+      'Progressive Web App architecture',
+      'Service worker and web manifest',
+      'Supabase',
+      'ESPN scoreboard API',
+      'Static multi-page deployment',
+      'localStorage fallback state',
+      'Generative artwork system',
+      'Data visualization-driven interaction design',
+      'Share-card composition pipeline'
+    ],
+    projectLinks: [
+      { label: 'GitHub repo', href: 'https://github.com/candiikay/FORM' },
+      { label: 'Live project', href: 'https://form-sigma-rosy.vercel.app/' }
+    ],
+    images: [
+      { filename: 'form-watercolor-field.png', description: 'Selected matchup field — the watercolor system after picks are made, where choices blend into a single painted composition.' },
+      { filename: 'form-product-system.png', description: 'Product system study — mobile flows showing how today’s picks, your form, set completion, archive, and settings all extend the same visual language.' },
+      { filename: 'form-entry-screen.png', description: 'Entry screen — the quiet invitation into FORM, framing the product as something you enter and stay in, not just a game to rush through.' },
+      { filename: 'form-wall.png', description: 'Wall view — the communal layer where weekly form becomes social, visible, and shareable across a broader group.' }
+    ]
+  },
+  'beyond-the-waterline': {
+    name: 'Beyond the Waterline',
+    subtitle: 'Women’s Basketball, 1972–2026',
+    category: 'Culture, Data & Transformation',
+    description: 'An interactive timeline about women’s basketball, pairing years, metrics, and narrative context in one scrollytelling system.',
+    imageFolder: 'Waterline',
+    abstract: 'Beyond the Waterline is an editorial timeline that tracks women’s basketball from 1972 to 2026 — the games, the money, the pushback, and what finally broke the surface. It treats sports history as interface: scroll the rail, drag the year, and watch the metrics and narrative move together.',
+    objective: 'How do you design a sports history interface that is not just archival, but legible and felt? Can a timeline hold both numbers and context — the box score and the social conditions around it — without flattening either one?',
+    hypothesis: 'When sports history is structured as a synchronized interface rather than a static essay, users can move through time with better orientation. Pairing year, headline metrics, and narrative context lets the audience understand not just what happened in women’s basketball, but why it mattered when it did.',
+    visualSystem: 'The project uses an editorial sports-language rather than a dashboard language. The timeline rail, vertical year track, and narrative detail panel move together to create a sense of depth and temporal motion. Typography and spacing do most of the work: the interface feels like a newspaper feature crossed with a museum display, giving women’s basketball the seriousness and care often denied to it.',
+    methodology: [
+      { step: '01. Timeline Architecture', description: 'Structured the experience around a scrollable rail and draggable year track so navigation itself would communicate time. The system needed to orient the user quickly while allowing deeper exploration.' },
+      { step: '02. Narrative + Metrics Pairing', description: 'Each year needed both a headline metric layer and a contextual story layer. The interface was designed so those two modes stayed synchronized instead of competing.' },
+      { step: '03. Editorial Framing', description: 'Wrote and arranged the experience as a mediated argument: women’s basketball history is not just a chronology of wins, but a record of labor, visibility, money, and public reception.' },
+      { step: '04. Lightweight Delivery', description: 'Built the experience as a single-page web narrative with careful front-end choreography so it could remain accessible, quick, and easy to share.' }
+    ],
+    outcomes: 'The result is a strong research and storytelling artifact that translates sports history into an explorable system. It demonstrates visual hierarchy, pacing, and the ability to work with historical narrative and quantitative signals at the same time.',
+    analysis: 'This project matters because it shows I can design for interpretation, not just interaction. Beyond the Waterline does not present women’s basketball as a data set to be mined. It frames the archive as a public story with stakes. That combination of editorial research and interface design is one of the clearest through-lines in my work this year.',
+    conclusion: 'Beyond the Waterline expands my portfolio beyond product flows into temporal storytelling systems. It is a sports media project, but also a method: using interface as a way to make culture, history, and structural context easier to understand.',
+    futureWork: [
+      'Add richer source views and citation layers so readers can dive further into specific years and claims.',
+      'Extend the timeline into player, league, and media sub-stories without losing the coherence of the central rail.',
+      'Test how this format could support exhibitions, classroom use, or editorial publishing around women’s sports.',
+      'Develop stronger responsive behavior for smaller screens while preserving the synchronized timeline logic.'
+    ],
+    technologies: [
+      'HTML/CSS/JavaScript',
+      'Scrollytelling interaction design',
+      'Editorial interface systems',
+      'Responsive front-end layout',
+      'Historical research synthesis'
+    ],
+    projectLinks: [
+      { label: 'GitHub repo', href: 'https://github.com/candiikay/WNBADATA' }
+    ],
+    images: [
+      { filename: 'waterline-logo.png', description: 'Project identity for Beyond the Waterline, an interactive women’s basketball timeline.' }
+    ]
+  },
+  'machine-tries-to-see-caitlin-clark': {
+    name: 'The Machine Tries to See Caitlin Clark',
+    subtitle: 'A Computational Media Field Notebook',
+    category: 'Algorithms',
+    description: 'An editorial experiment about trying to make a computer vision system reliably recognize Caitlin Clark in broadcast footage.',
+    imageFolder: 'Machine',
+    abstract: 'This project is a field notebook on machine perception, built around a focused question: why is it so hard for a computer vision system to consistently recognize Caitlin Clark in the final seconds of an ESPN broadcast? It turns a technical attempt into an editorial critique of what machine vision misses when context, pressure, motion, and identity get compressed into footage.',
+    objective: 'Can a compact creative-coding project reveal the limits of computer vision more clearly than a purely technical demo? What does sports footage expose about tracking systems, and how can design turn those failures into a readable public argument?',
+    hypothesis: 'When the process of failure is made visible — ball tracking, silhouette matching, jersey color heuristics, manual pointing, broadcast limitations — audiences understand computer vision more deeply. The value is not just in “making it work,” but in showing why perception systems misread the world.',
+    visualSystem: 'The page is staged as a field notebook rather than a polished AI demo. Stills, tracked frames, failed attempts, and cinematic crops create an editorial rhythm that matches the project’s argument: machine vision is always partial. The design language is sparse and documentary, giving the footage and annotations room to expose what the machine can and cannot hold onto.',
+    methodology: [
+      { step: '01. Narrow the Scene', description: 'Constrained the project to a specific broadcast moment so the experiment could stay sharp: the final seconds of an ESPN segment where recognition should feel possible, but does not reliably resolve.' },
+      { step: '02. Run Multiple Recognition Attempts', description: 'Tried different approaches — ball tracking, silhouette, jersey cues, persistent overlays, and manual intervention — to see what kinds of visual logic break down first.' },
+      { step: '03. Capture Failure As Material', description: 'Saved stills, screenshots, and intermediate outputs so the misses themselves could become part of the narrative instead of being hidden as failed technical tests.' },
+      { step: '04. Build The Editorial Argument', description: 'Turned the experiment into a computational media notebook with sections like The Attempt, The Footage & the Cut, Six Ways to Miss One Player, and Why It’s So Hard.' }
+    ],
+    outcomes: 'The result is a strong hybrid of technical inquiry and public storytelling. It demonstrates computer-vision experimentation, but more importantly it shows how I translate a technical problem into a cultural and design question that non-specialists can still understand.',
+    analysis: 'This is one of the most important additions to the site because it shows range. It is not only a prototype or a design tool. It is an authored argument about machine seeing, sports media, and legibility. That matters for studios, labs, and creative technology teams because it proves I can investigate a system and also explain its stakes.',
+    conclusion: 'The project reinforces a larger direction in my work: building and critiquing systems at the same time. Rather than treating AI as magic or doom, it asks what machine perception actually looks like when put under pressure. That is the kind of work I want more of — technically informed, culturally aware, and formally clear.',
+    futureWork: [
+      'Push the recognition experiments further with additional sports clips, annotations, and tracking methods.',
+      'Connect the notebook to broader questions of broadcast framing, visibility, and who gets made legible by sports media systems.',
+      'Explore companion versions for gallery, lecture, or classroom settings where the experiment can be experienced spatially.',
+      'Develop follow-on studies around other forms of machine misrecognition in sports and cultural footage.'
+    ],
+    technologies: [
+      'Computer vision experimentation',
+      'Creative coding',
+      'Editorial front-end design',
+      'Video analysis workflows',
+      'Computational media research'
+    ],
+    projectLinks: [
+      { label: 'GitHub repo', href: 'https://github.com/candiikay/CVWNBA' }
+    ],
+    images: [
+      { filename: 'hero-still.jpg', description: 'Hero still from the notebook — the broadcast moment that anchors the recognition experiment.' },
+      { filename: 'caitlin-tracked.jpg', description: 'Tracked frame showing one attempt to lock onto Caitlin Clark within the broadcast image.' },
+      { filename: 'court-context.jpg', description: 'Context frame emphasizing how much spatial and visual information the system has to sort through.' },
+      { filename: 'exp-overlay.jpg', description: 'One experimental overlay used to test whether additional guidance would help the system hold on to the player.' },
+      { filename: 'screenshot-3592.png', description: 'Notebook screenshot showing the editorial layout that turns the experiment into a readable public argument.' }
+    ]
+  },
+  'systems-are-never-neutral': {
+    name: 'Systems Are Never Neutral',
+    subtitle: 'Feminist Systems Theory Through Book, Zine, and Structure',
+    category: 'Culture, Data & Transformation',
+    description: 'A self-directed feminist systems theory project built as a digital book, field-guide zine, and process deck on how structures become familiar enough to look neutral.',
+    imageFolder: 'SDL',
+    abstract: 'This project investigates how everyday systems encode values, construct legibility, and pass themselves off as neutral. Grounded in feminist systems thinking — Haraway, Star, Puig de la Bellacasa, Mattern — it produced two linked artifacts: a long-form digital book on lived experience as data, and a zine cataloging inherited structural forms. The core argument is simple: commonness is not neutrality.',
+    objective: 'How do systems quietly shape people while presenting themselves as objective? What happens when you stop reading interfaces and institutions as “just how things are” and instead trace the structures, repetitions, and classifications underneath them?',
+    hypothesis: 'When structural forms are named, pictured, and historically situated, they stop feeling inevitable. The familiar dropdown, file, classification card, or motion study can be recognized as authored. That recognition is a precondition for redesign.',
+    visualSystem: 'The project uses a document-like, thesis-adjacent visual language because it needed to feel rigorous without losing authorship. The showcase site, book, and zine all treat design as argument. Typography, navigation, and the sequence of artifacts do not just present the research — they embody it, moving from lived experience and datafication toward lineage, form, and structural inheritance.',
+    methodology: [
+      { step: '01. The Question', description: 'The inquiry began with a systems question rather than a formal thesis: how do systems quietly shape behavior while presenting themselves as neutral?' },
+      { step: '02. Feminist Research Base', description: 'Built the conceptual foundation through feminist systems thinking — especially Haraway, Star, Puig de la Bellacasa, and Mattern — to understand legibility, care, classification, and infrastructural power.' },
+      { step: '03. Project One: The Book', description: 'Created They Did Not Make This For You, a long-form digital book examining datasets, classification, and the conditions under which people become legible to systems.' },
+      { step: '04. The Shift', description: 'The work pivoted from lived experience toward lineage: from what systems do to people, to where the forms inside those systems came from, who repeated them, and when they became ordinary.' },
+      { step: '05. Project Two: The Zine', description: 'Created Unknown Origin, a field-guide zine cataloging inherited structural forms and making visible the designs that become invisible through repetition.' }
+    ],
+    outcomes: 'The finished project became a mini-thesis in public form: one part research argument, one part design artifact, one part self-authored curriculum. It demonstrates writing, interface design, editorial structure, and the ability to translate theory into accessible public-facing forms.',
+    analysis: 'This project matters because it makes the intellectual side of my practice legible without turning it into a plain reading list. It shows that I do not only build tools — I also investigate the structures beneath them. For the site, it belongs alongside culture, data, and transformation because it is about how structures become normal and how design can denaturalize them.',
+    conclusion: 'Systems Are Never Neutral is a strong anchor project because it ties together theory, interface, and visual argument. It clarifies a major through-line in my work: naming structure, tracing authorship, and redesigning what has been allowed to disappear into common sense.',
+    futureWork: [
+      'Expand the catalog of inherited forms into a larger public-facing archive or teaching tool.',
+      'Develop the book and zine into a stronger exhibition or publishing format beyond the class context.',
+      'Connect the project more explicitly to current product systems, platform defaults, and AI classification tools.',
+      'Keep using design artifacts as a way to make theory legible without flattening it into summary.'
+    ],
+    technologies: [
+      'Editorial web design',
+      'Practice-based research',
+      'Digital publishing',
+      'Interactive document structure',
+      'Feminist systems theory',
+      'Design-as-argument'
+    ],
+    projectLinks: [
+      { label: 'Open the book', href: '/SDL/book/index.html' },
+      { label: 'Open the zine', href: '/SDL/zine/index.html' },
+      { label: 'Process deck PDF', href: '/SDL/journey.pdf' }
+    ],
+    images: [
+      { filename: 'motion-study.jpg', description: 'One of the project’s key visual references — motion study as a historical structure for legibility and control.' },
+      { filename: 'JoyBuolamwini.jpg', description: 'Image used in the book to discuss algorithmic bias, recognition, and the politics of classification.' },
+      { filename: 'consumer-file.png', description: 'Consumer file image from the research set — one example of how people are turned into structured records.' },
+      { filename: 'credit.png', description: 'Credit and scoring imagery used to examine how systems sort, rank, and pre-decide access.' },
+      { filename: 'Phone.png', description: 'Phone-based interface imagery showing how structural forms move into everyday digital experience.' }
+    ]
+  },
   'creator-partnerships': {
     name: 'UGC for Tech Brands',
     subtitle: 'Where product fluency meets the feed',
@@ -1844,7 +2021,7 @@ function ReadingGuide({ project }) {
       <footer className="pt-12 mt-12 border-t border-black">
         <div className="text-center">
           <p className="text-xs text-black" style={{ fontFamily: 'IBM Plex Mono, monospace' }}>
-            © 2025 Candace Stewart — Built with care
+            © 2026 Candace Stewart — Built with care
           </p>
         </div>
       </footer>
@@ -2268,6 +2445,22 @@ export default function ProjectDetail() {
             <p className="text-sm sm:text-base text-gray-700 mt-4 max-w-2xl break-words">
               {project.description}
             </p>
+          )}
+
+          {project.projectLinks && project.projectLinks.length > 0 && (
+            <div className="flex flex-wrap gap-2 mt-4">
+              {project.projectLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center border border-black px-3 py-1.5 text-xs sm:text-sm hover:bg-black hover:text-white transition-colors"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
           )}
         </div>
       </div>
